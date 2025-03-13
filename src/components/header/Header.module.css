@@ -1,0 +1,89 @@
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+  }
+
+  .header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--neutral-2);
+    top: 0px;
+    z-index: 99;
+  }
+
+  .logo h4{
+    font-family: Gluten, cursive;
+    font-size: var(--size-20);
+    font-weight: var(--font-weight-regular);
+    color: var(--brown-default);
+  }
+
+  .header{
+    padding: 8px 0px;
+  }
+
+  .landText{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 48%;
+  }
+  
+.innerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navLinks{
+    display: flex;
+    gap: 16px;
+  }
+
+  .innerHeader nav ul li{
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+
+  .innerHeader nav ul li a{
+    color: var(--neutral-90);
+    text-decoration: none;
+  }
+
+  .innerHeader nav ul li a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--neutral-90);
+    margin-top: 2px;
+    opacity: 0 ;
+  }
+
+  .innerHeader nav ul li a.active::after{
+    opacity: 1  ;
+  }
+
+
+
+  .menuIcon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navLinks {
+    display: flex;
+    cursor: pointer;
+
+  }
+  
+  .navLinks.open {
+    display: block;
+  }
+  
+  

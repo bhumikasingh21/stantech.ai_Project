@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+  :root {
+    /* Colors */
+    --neutral-0: #ffffff;
+    --neutral-1: #fdfdfd;
+    --neutral-2: #fcfcfb;
+    --neutral-3: #fafafa;
+    --neutral-4: #f9f9f8;
+    --neutral-5: #f7f7f6;
+    --neutral-10: #dfdedd;
+    --neutral-20: #c6c5c3;
+    --neutral-30: #aeadaa;
+    --neutral-40: #969491;
+    --neutral-50: #7d7b77;
+    --neutral-60: #65625e;
+    --neutral-70: #4d4a45;
+    --neutral-80: #34312b;
+    --neutral-90: #1c1812;
+    --neutral-100: #000000;
+  
+    --tan-lighter: #f1ece1;
+    --tan-light: #e4d9c3;
+    --tan-default: #ddcfb4;
+    --tan-dark: #b1a690;
+    --tan-darker: #857c6c;
+  
+    --brown-lighter: #978f84;
+    --brown-light: #74695b;
+    --brown-default: #514432;
+    --brown-dark: #31291e;
+    --brown-darker: #201b14;
+  
+    /* Sizes */
+    --size-1: 0.0625rem;
+    --size-2: 0.125rem;
+    --size-4: 0.25rem;
+    --size-8: 0.5rem;
+    --size-12: 0.75rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-20: 1.25rem;
+    --size-24: 1.5rem;
+    --size-32: 2rem;
+    --size-40: 2.5rem;
+    --size-48: 3rem;
+    --size-56: 3.5rem;
+    --size-64: 4rem;
+    --size-72: 4.5rem;
+    --size-80: 5rem;
+    --size-96: 6rem;
+  
+    /* Font Families */
+    --font-family-default: 'Inter, sans-serif';
+    --font-family-alternate: 'Gluten, cursive';
+  
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+  
+    /* Line Heights */
+    --line-height-none: 1;
+    --line-height-tight: 1.125;
+    --line-height-default: 1.25;
+    --line-height-loose: 1.5;
+  
+    /* Breakpoints */
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+  }
+
+  *{
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family-default);
+    background-color: var(--neutral-2);
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  ul{
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin: 0px;
+  }
+
+  h1{
+    font-size: var(--size-56);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  h2{
+    font-size: 48px;
+  }
+
+  h3{
+    font-size: 32px;
+  }
+
+  h5{
+    font-size: var(--size-20);
+    font-weight: var( --font-weight-regular);
+  }
+
+  p{
+    font-size: var(--size-20);
+    line-height: var(--line-height-loose);
+    margin: 0;
+  }
+
+  button{
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  .strokeBtn{
+    background-color: var(--neutral-0);
+    color: var(--neutral-90);
+    border: 2px solid var(--neutral-40);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: var(--size-16);
+    line-height: var(--line-height-loose);
+    font-weight: var(--font-weight-regular);
+    width: 100%;
+  }
+
+  .grayBtn{
+    background-color: var(--neutral-10);
+      color: var(--neutral-90);
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: var(--size-14);
+      line-height: var(--line-height-loose);
+      font-weight: var(--font-weight-regular);
+      
+  }
+
+  .grayBtn:hover{
+    background-color: var(--neutral-5);
+  }
+
+  .grayBtn:active{
+    background-color: var(--neutral-20);
+  }
+
+  .grayBtn:focus{
+    background-color: var(--neutral-10);
+  }
+
+  .mainBtn{
+      background-color: var(--brown-default);
+      color: var(--neutral-5);
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: var(--size-16);
+      line-height: var(--line-height-loose);
+      font-weight: var(--font-weight-regular);
+  }
+
+  .mainBtn:hover{
+    background-color: var(--brown-light);
+  }
+
+  .mainBtn:active{
+    background-color: var(--brown-dark);
+  }
+
+  .mainBtn:focus{
+    background-color: var(--brown-default);
+    outline: 1;
+  }
+
+  .container{
+    width: 75%;
+    margin: 0 auto;
+  }
+
+
+  
+
+
+
+
+

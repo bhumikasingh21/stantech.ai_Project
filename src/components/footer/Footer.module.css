@@ -1,0 +1,34 @@
+footer{
+    background-color: var(--neutral-90);
+    padding: 24px 0px;
+    color: var(--neutral-0);
+  }
+  
+  .footerContent{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerLeft{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .footerContent ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+  }
+  
+  .footerContent ul li{
+    color: var(--neutral-5);
+  }
+  
+  .footerBottom p{
+    text-align: center;
+    color: var(--neutral-30);
+    font-size: var(--size-12);
+    margin-top: 36px;
+  }
