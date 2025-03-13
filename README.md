@@ -38,7 +38,7 @@ Make sure you have Node.js and npm installed. You can download them from [nodejs
     npm run dev
     ```
 
-    This will start the development server. Open your browser and navigate to `http://localhost:3000` to see your application.
+    This will start the development server. Open your browser and navigate to `http://localhost:5173` to see your application.
 
 ### Additional Libraries
 
